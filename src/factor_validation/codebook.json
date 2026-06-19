@@ -1,0 +1,278 @@
+{
+  "version": "1.0",
+  "created": "2026-04-18",
+  "n_factors": 44,
+  "n_positive": 23,
+  "n_negative": 21,
+  "notes": [
+    "Polarity is metadata for post-hoc analysis only. It MUST NOT appear in prompts sent to the classifier LLM.",
+    "IDs F01-F23 are positive; F24-F44 are negative. The ID range encodes polarity for indexing, but IDs are shuffled per-request so the classifier cannot use positional information.",
+    "Descriptions are preserved verbatim from the researcher's list. Minimal typo fixes applied: 'evence'->'evidence', 'Incomple'->'Incomplete', 'fail tclearly'->'fail to clearly', 'legittions'->'legitimate limitations'."
+  ],
+  "factors": [
+    {
+      "id": "F01",
+      "polarity": "positive",
+      "label": "Structured, point-by-point response format.",
+      "description": "Organized rebuttal with explicit references (e.g., to equations, sections), clear formatting, and systematic addressing of each concern."
+    },
+    {
+      "id": "F02",
+      "polarity": "positive",
+      "label": "Non-defensive, respectful, collaborative tone.",
+      "description": "Framing disagreements as clarifications rather than corrections, maintaining warmth and respect even while pushing back (e.g., \"You raise a fair point about X…\")."
+    },
+    {
+      "id": "F03",
+      "polarity": "positive",
+      "label": "Respectful opening / appreciation toward the reviewer.",
+      "description": "Presence of explicit thanks, appreciation, or acknowledgment of reviewer effort or insight, especially at the start of the response."
+    },
+    {
+      "id": "F04",
+      "polarity": "positive",
+      "label": "The rebuttal signals sincere engagement through detailed responses, length, added appendix content, or extensive explanation.",
+      "description": ""
+    },
+    {
+      "id": "F05",
+      "polarity": "positive",
+      "label": "Methodological detail and reproducibility clarification.",
+      "description": "Provision of implementation details, methodological clarifications, or reproducibility-relevant information. Code or data release commitment. Pointing reviewers to appendices, extended tables, or additional figures that provide supporting evidence beyond the main text."
+    },
+    {
+      "id": "F06",
+      "polarity": "positive",
+      "label": "Concrete empirical evidence tied to reviewer concerns.",
+      "description": "The authors provide new experimental or empirical evidence specifically targeted to the issues raised, rather than generic supporting material."
+    },
+    {
+      "id": "F07",
+      "polarity": "positive",
+      "label": "Baseline completion / comparator strengthening.",
+      "description": "Whether the rebuttal closes empirical comparison gaps, especially by adding missing baselines requested by reviewers or showing where baselines fail."
+    },
+    {
+      "id": "F08",
+      "polarity": "positive",
+      "label": "Demonstrating understanding and acknowledging valid points before responding.",
+      "description": "Showing thorough comprehension of the reviewer's concern and recognizing its merit before offering a defense or clarification."
+    },
+    {
+      "id": "F09",
+      "polarity": "positive",
+      "label": "Comprehensive concern coverage.",
+      "description": "Addressing all reviewer questions and sub-points without corner-cutting or selective omission."
+    },
+    {
+      "id": "F10",
+      "polarity": "positive",
+      "label": "Explicit cross-references to figures, tables, and sections by number.",
+      "description": "Making it easy for the reviewer to locate evidence in the manuscript."
+    },
+    {
+      "id": "F11",
+      "polarity": "positive",
+      "label": "Ablation studies showing component-level impact.",
+      "description": "Isolating the contribution of individual design choices."
+    },
+    {
+      "id": "F12",
+      "polarity": "positive",
+      "label": "(Proactive and) honest limitation acknowledgment.",
+      "description": "Discussing weaknesses transparently rather than dismissing or minimizing them."
+    },
+    {
+      "id": "F13",
+      "polarity": "positive",
+      "label": "Explicit manuscript revision signaling.",
+      "description": "Stating precisely what has been changed in the revised version (e.g., \"Updated Section 3.2,\" \"Added Table 4\"), including submitting a revised PDF and reorganizing appendix content."
+    },
+    {
+      "id": "F14",
+      "polarity": "positive",
+      "label": "Supplementary material and new visual evidence.",
+      "description": "Providing new tables, figures, or supplementary materials that weren't in the original submission to strengthen the argument."
+    },
+    {
+      "id": "F15",
+      "polarity": "positive",
+      "label": "Explaining novelty and broader impact.",
+      "description": "Articulating why the contribution matters to the community and what practical or theoretical implications follow. Drawing attention to what distinguishes the work as a strong or exceptional contribution, not just a competent one."
+    },
+    {
+      "id": "F16",
+      "polarity": "positive",
+      "label": "Conceptual explanations alongside empirical results.",
+      "description": "Pairing intuition or theory with data, not just numbers."
+    },
+    {
+      "id": "F17",
+      "polarity": "positive",
+      "label": "Clarification-oriented response strategy.",
+      "description": "Emphasis on explaining and clarifying misunderstandings rather than primarily defending the original submission."
+    },
+    {
+      "id": "F18",
+      "polarity": "positive",
+      "label": "Concerns-addressed checklist or summary.",
+      "description": "An explicit tracker converting the dialogue into a \"concerns resolved\" overview."
+    },
+    {
+      "id": "F19",
+      "polarity": "positive",
+      "label": "Rewriting and simplifying for clarity.",
+      "description": "Revising unclear passages with concrete examples rather than repeating original text, including figure/notation revision and reorganized content."
+    },
+    {
+      "id": "F20",
+      "polarity": "positive",
+      "label": "Theoretical or mathematical grounding.",
+      "description": "Providing formal proofs, convergence analysis, clarified notation, or mathematical definitions when reviewers question claims or flag theoretical gaps."
+    },
+    {
+      "id": "F21",
+      "polarity": "positive",
+      "label": "Active dialogue and continued engagement.",
+      "description": "Asking probing questions back to reviewers, engaging in extended back-and-forth, and offering to make further revisions if specific suggestions are provided."
+    },
+    {
+      "id": "F22",
+      "polarity": "positive",
+      "label": "Concrete revision commitments.",
+      "description": "Specific promises to improve the manuscript (clarifying text, adding detail, restructuring presentation)."
+    },
+    {
+      "id": "F23",
+      "polarity": "positive",
+      "label": "Going beyond the explicit ask and anticipating follow-ups.",
+      "description": "Proactively providing extra evidence, deeper intuition, or extended analysis that the reviewer didn't specifically request but would likely want."
+    },
+    {
+      "id": "F24",
+      "polarity": "negative",
+      "label": "Defensive or dismissive tone.",
+      "description": "Using defensive language (\"you misunderstood\", \"we disagree with this interpretation\") or dismissing concerns as unimportant rather than addressing them with evidence."
+    },
+    {
+      "id": "F25",
+      "polarity": "negative",
+      "label": "Superficial or partial addressal of reviewer concerns.",
+      "description": "Focus on peripheral fixes while avoiding fundamental questions. Some concerns get a one-liner, others get nothing."
+    },
+    {
+      "id": "F26",
+      "polarity": "negative",
+      "label": "Missing reproducibility details.",
+      "description": "Failing to provide code, implementation details, or sufficient methodological specification when reproducibility was questioned."
+    },
+    {
+      "id": "F27",
+      "polarity": "negative",
+      "label": "Missing or insufficient baseline comparisons.",
+      "description": "Weak baselines, missing state-of-the-art methods, unfair experimental conditions, or failing to directly compare against cited baselines."
+    },
+    {
+      "id": "F28",
+      "polarity": "negative",
+      "label": "Lack of quantitative/empirical evidence in rebuttal.",
+      "description": "Claims of improvement lack rigorous metrics, statistical significance tests, error bars, confidence intervals, or multiple validation runs. No new experimental results or tables provided in the rebuttal document."
+    },
+    {
+      "id": "F29",
+      "polarity": "negative",
+      "label": "No new requested experiments / analyses / ablations / reviewer 'would-have-liked' checks.",
+      "description": "Acknowledged demands but not acted upon."
+    },
+    {
+      "id": "F30",
+      "polarity": "negative",
+      "label": "Vague future-oriented promises instead of concrete commitments.",
+      "description": "\"will consider,\" \"may explore,\" ambiguous promises, deferring details."
+    },
+    {
+      "id": "F31",
+      "polarity": "negative",
+      "label": "Narrow or insufficient evaluation scope.",
+      "description": "Limited applicability or toy-scale evaluation persists. Includes adding a single new experiment when the concern was systemic, or maintaining a narrow evaluation protocol when broader validation was requested."
+    },
+    {
+      "id": "F32",
+      "polarity": "negative",
+      "label": "Incomplete empirical coverage even after rebuttal additions.",
+      "description": "New results were provided but still left gaps in the experimental picture."
+    },
+    {
+      "id": "F33",
+      "polarity": "negative",
+      "label": "Unresolved quality-of-execution concerns, methodological or experimental design issues that additional experiments do not fix.",
+      "description": ""
+    },
+    {
+      "id": "F34",
+      "polarity": "negative",
+      "label": "Silent acceptance of limitations with no mitigation.",
+      "description": "Acknowledging concerns or trade-offs without proposing any mitigation, or overselling the method by failing to acknowledge legitimate limitations."
+    },
+    {
+      "id": "F35",
+      "polarity": "negative",
+      "label": "Lack of structured rebuttal format, no explicit rebuttal section, no clear author-response markers, no point-by-point Q&A with reviewer quotes.",
+      "description": ""
+    },
+    {
+      "id": "F36",
+      "polarity": "negative",
+      "label": "Weak novelty justification.",
+      "description": "Standard or known techniques without clear articulation of what makes the contribution substantially different. Failing to distinguish method novelty from engineering contribution, letting an \"incremental\" characterization stand."
+    },
+    {
+      "id": "F37",
+      "polarity": "negative",
+      "label": "Brevity or low-effort rebuttal.",
+      "description": "Shorter or thinner responses that signal low engagement relative to reviewer investment."
+    },
+    {
+      "id": "F38",
+      "polarity": "negative",
+      "label": "Section-referencing or paper-rephrasing instead of real clarification.",
+      "description": "The author points back to existing sections or restates the paper rather than directly clarifying the issue in the interaction."
+    },
+    {
+      "id": "F39",
+      "polarity": "negative",
+      "label": "Inadequate explanation or persistent clarity issues.",
+      "description": "Core methodology or writing remains insufficiently explained after the rebuttal. Includes responses that rephrase the paper rather than answer the question, or that merely reference sections (\"as described in Section 3\") instead of substantively clarifying."
+    },
+    {
+      "id": "F40",
+      "polarity": "negative",
+      "label": "Marginal quantitative improvements.",
+      "description": "Providing only small gains (e.g., 1-3%) when reviewers explicitly stated results needed to be substantially stronger."
+    },
+    {
+      "id": "F41",
+      "polarity": "negative",
+      "label": "Presentation or notation overload that worsens clarity.",
+      "description": "The response adds complexity, appendix material, or structural detail without improving comprehension, especially when presentation was already a reviewer concern."
+    },
+    {
+      "id": "F42",
+      "polarity": "negative",
+      "label": "Vague or insufficient technical explanation.",
+      "description": "Explanations are too abstract, assume background knowledge, rely on vague wording, or fail to clearly describe what was done and why."
+    },
+    {
+      "id": "F43",
+      "polarity": "negative",
+      "label": "No explicit commitment to revise or improve the paper.",
+      "description": "Absence of concrete revision commitments, no clear statement of what will be changed."
+    },
+    {
+      "id": "F44",
+      "polarity": "negative",
+      "label": "Surfacing a previously unnoticed problem without proactive framing.",
+      "description": "The rebuttal inadvertently reveals an assumption gap, narrower scope, or non-standard protocol that the reviewer hadn't originally flagged."
+    }
+  ]
+}

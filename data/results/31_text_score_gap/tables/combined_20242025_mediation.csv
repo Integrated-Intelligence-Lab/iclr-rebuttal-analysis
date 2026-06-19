@@ -1,0 +1,7 @@
+path,coefficient,interpretation
+c (total),0.6430351908962493,Gemini offset -> score increase
+a,0.13153193868689717,Gemini offset -> engagement quality
+b,0.22181295042207907,Engagement -> score increase (controlling offset)
+c' (direct),0.6096378805559028,Gemini offset -> score increase (controlling engagement)
+indirect (a*b),0.029189888951885793,"95% CI: [0.0265, 0.0319]"
+proportion_mediated,0.0519369869847993,"n=72,994, bootstrap=1000"

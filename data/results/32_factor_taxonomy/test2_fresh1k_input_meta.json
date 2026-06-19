@@ -1,0 +1,24 @@
+{
+    "source_year": 2024,
+    "seed": 51,
+    "counts_requested": {
+        "low_increase": 114,
+        "low_same_decrease": 107,
+        "mid_increase": 271,
+        "mid_same_decrease": 353,
+        "high_increase": 58,
+        "high_same_decrease": 97
+    },
+    "counts_actual": {
+        "low_increase": 114,
+        "low_same_decrease": 107,
+        "mid_increase": 271,
+        "mid_same_decrease": 353,
+        "high_increase": 10,
+        "high_same_decrease": 97
+    },
+    "excluded_pairs_from_reference": 1000,
+    "reference_sample": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/results/score_change/samples/classify_input_raw_threads.json",
+    "normalized_path": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/processed/normalized/ICLR_2024_normalized.json",
+    "verdicts_path": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/results/score_change/gemini_verdicts_v2_full.json"
+}

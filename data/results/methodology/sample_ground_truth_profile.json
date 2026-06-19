@@ -1,0 +1,131 @@
+{
+    "sample_pairs_json": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/public_release/data/results/methodology/score_change_samples/iclr_2025_accepted_rejected_seed50_1k_pairs.json",
+    "sample_summary": {
+        "n_reviews": 1000,
+        "n_papers": 936,
+        "tier_counts": {
+            "mid": 624,
+            "low": 221,
+            "high": 155
+        },
+        "tier_pct": {
+            "mid": 62.4,
+            "low": 22.1,
+            "high": 15.5
+        },
+        "by_tier_direction_counts": {
+            "high": {
+                "decrease": 5,
+                "same": 92,
+                "increase": 58
+            },
+            "low": {
+                "decrease": 0,
+                "same": 107,
+                "increase": 114
+            },
+            "mid": {
+                "decrease": 16,
+                "same": 337,
+                "increase": 271
+            }
+        },
+        "by_tier_direction_pct": {
+            "high": {
+                "decrease": 3.23,
+                "same": 59.35,
+                "increase": 37.42
+            },
+            "low": {
+                "decrease": 0.0,
+                "same": 48.42,
+                "increase": 51.58
+            },
+            "mid": {
+                "decrease": 2.56,
+                "same": 54.01,
+                "increase": 43.43
+            }
+        }
+    },
+    "full_summary": {
+        "n_reviews": 73231,
+        "n_papers": 18403,
+        "tier_counts": {
+            "mid": 43114,
+            "low": 23663,
+            "high": 6454
+        },
+        "tier_pct": {
+            "mid": 58.87,
+            "low": 32.31,
+            "high": 8.81
+        },
+        "by_tier_direction_counts": {
+            "high": {
+                "decrease": 251,
+                "same": 6129,
+                "increase": 74
+            },
+            "low": {
+                "decrease": 60,
+                "same": 19214,
+                "increase": 4389
+            },
+            "mid": {
+                "decrease": 688,
+                "same": 31495,
+                "increase": 10931
+            }
+        },
+        "by_tier_direction_pct": {
+            "high": {
+                "decrease": 3.89,
+                "same": 94.96,
+                "increase": 1.15
+            },
+            "low": {
+                "decrease": 0.25,
+                "same": 81.2,
+                "increase": 18.55
+            },
+            "mid": {
+                "decrease": 1.6,
+                "same": 73.05,
+                "increase": 25.35
+            }
+        }
+    },
+    "tier_distribution_comparison": [
+        {
+            "tier": "low",
+            "sample_pct": 22.1,
+            "full_pct": 32.31,
+            "delta_pct_points": -10.21
+        },
+        {
+            "tier": "mid",
+            "sample_pct": 62.4,
+            "full_pct": 58.87,
+            "delta_pct_points": 3.53
+        },
+        {
+            "tier": "high",
+            "sample_pct": 15.5,
+            "full_pct": 8.81,
+            "delta_pct_points": 6.69
+        }
+    ],
+    "interaction_validation": {
+        "total_pairs": 1000,
+        "pairs_with_interactions": 999,
+        "pairs_without_interactions": 1,
+        "interaction_coverage_pct": 99.9,
+        "missing_examples": [
+            {
+                "paper_id": "lMcoxeMYYw",
+                "reviewer_id": "ICLR.cc/2025/Conference/Submission10941/Reviewer_AMeD"
+            }
+        ]
+    }
+}

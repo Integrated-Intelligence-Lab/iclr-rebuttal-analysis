@@ -1,0 +1,37 @@
+# --- Python ---
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- OS ---
+.DS_Store
+
+# --- Large data: lives on Zenodo (archival) + Hugging Face (mirror), not in git ---
+# Bundled in the repo (small, analysis-ready): data/processed/parquet/ and data/results/
+data/raw/
+data/batches/
+data/processed/normalized/
+data/processed/categorization_data/
+
+# --- LaTeX build artifacts ---
+docs/paper/*.aux
+docs/paper/*.log
+docs/paper/*.fls
+docs/paper/*.fdb_latexmk
+docs/paper/*.bbl
+docs/paper/*.blg
+docs/paper/*.out
+docs/paper/*.toc
+docs/paper/*.synctex.gz
+docs/paper/main_v*.txt
+# Draft PDFs: ship only the title-named PDF, not internal draft names
+docs/paper/main_v*.pdf
+
+# --- Release staging / scratch ---
+build/
+dist/
+*.tmp

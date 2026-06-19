@@ -1,0 +1,55 @@
+{
+  "target_batches": [
+    "b5"
+  ],
+  "token_budget": 900000,
+  "n_excluded_existing_2k": 1952,
+  "n_kept_total": 13880,
+  "n_skipped_total": 0,
+  "char_length_percentiles": {
+    "min": 1088,
+    "p50": 10754,
+    "p90": 23044,
+    "p99": 42682,
+    "max": 104951
+  },
+  "token_length_percentiles": {
+    "min": 272,
+    "p50": 2688,
+    "p90": 5761,
+    "p99": 10670,
+    "max": 26237
+  },
+  "per_batch_counts": {
+    "b1": 0,
+    "b2": 3524,
+    "b3": 3570,
+    "b4": 3367,
+    "b5": 3419
+  },
+  "per_batch_input_tokens_est": {
+    "b1": 0,
+    "b2": 11363332,
+    "b3": 11579886,
+    "b4": 10725361,
+    "b5": 10976685
+  },
+  "counters_per_year": {
+    "2025": {
+      "year": 2025,
+      "enrich_total": 14505,
+      "enrich_unknown_verdict": 0,
+      "enrich_no_paper": 0,
+      "enrich_no_review": 0,
+      "enrich_no_rating": 0,
+      "enrich_no_tier": 0,
+      "enrich_excluded": 625,
+      "enrich_no_author_reply": 0,
+      "enrich_kept": 13880,
+      "kept": 13880
+    }
+  },
+  "files_written": [
+    "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/processed/categorization_data/factor_full_corpus_b5.json"
+  ]
+}

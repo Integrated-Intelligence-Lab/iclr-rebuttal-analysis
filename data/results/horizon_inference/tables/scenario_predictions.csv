@@ -1,0 +1,7 @@
+scenario,n_factors_present,p_increase
+Median rebuttal (no recommended factors set),0,0.22370588983417178
++ add F07 (baseline completion) only,1,0.3156075950506168
++ add top-3 recommended positives,3,0.4708888693123824
++ add top-5 recommended positives,4,0.5272978131451775
++ top-5 positives AND top-3 negatives also present,7,0.08792287743486746
++ top-3 negatives only (and zero positives),3,0.02429798724617891

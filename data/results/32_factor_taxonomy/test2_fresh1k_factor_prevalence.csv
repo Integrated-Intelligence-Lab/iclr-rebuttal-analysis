@@ -1,0 +1,45 @@
+factor_id,polarity,label,n_low_increase,n_low_same_decrease,n_mid_increase,n_mid_same_decrease,n_high_increase,n_high_same_decrease,rate_low_increase,rate_low_same_decrease,rate_mid_increase,rate_mid_same_decrease,rate_high_increase,rate_high_same_decrease,n_increase,n_same_decrease,rate_increase,rate_same_decrease
+F01,positive,"Structured, point-by-point response format.",113,102,267,344,10,92,0.9912,0.9533,0.9852,0.9745,1.0000,0.9485,390,538,0.9873,0.9659
+F02,positive,"Non-defensive, respectful, collaborative tone.",108,85,264,324,10,91,0.9474,0.7944,0.9742,0.9178,1.0000,0.9381,382,500,0.9671,0.8977
+F03,positive,Respectful opening / appreciation toward the reviewer.,113,91,264,339,10,93,0.9912,0.8505,0.9742,0.9603,1.0000,0.9588,387,523,0.9797,0.9390
+F04,positive,"The rebuttal signals sincere engagement through detailed responses, length, added appendix content, or extensive explanation.",113,92,263,326,10,83,0.9912,0.8598,0.9705,0.9235,1.0000,0.8557,386,501,0.9772,0.8995
+F05,positive,Methodological detail and reproducibility clarification.,108,97,252,303,10,81,0.9474,0.9065,0.9299,0.8584,1.0000,0.8351,370,481,0.9367,0.8636
+F06,positive,Concrete empirical evidence tied to reviewer concerns.,76,54,210,236,9,51,0.6667,0.5047,0.7749,0.6686,0.9000,0.5258,295,341,0.7468,0.6122
+F07,positive,Baseline completion / comparator strengthening.,57,33,149,133,6,30,0.5000,0.3084,0.5498,0.3768,0.6000,0.3093,212,196,0.5367,0.3519
+F08,positive,Demonstrating understanding and acknowledging valid points before responding.,103,84,255,301,9,80,0.9035,0.7850,0.9410,0.8527,0.9000,0.8247,367,465,0.9291,0.8348
+F09,positive,Comprehensive concern coverage.,107,87,265,324,10,91,0.9386,0.8131,0.9779,0.9178,1.0000,0.9381,382,502,0.9671,0.9013
+F10,positive,"Explicit cross-references to figures, tables, and sections by number.",102,93,243,288,9,82,0.8947,0.8692,0.8967,0.8159,0.9000,0.8454,354,463,0.8962,0.8312
+F11,positive,Ablation studies showing component-level impact.,41,27,86,101,4,18,0.3596,0.2523,0.3173,0.2861,0.4000,0.1856,131,146,0.3316,0.2621
+F12,positive,(Proactive and) honest limitation acknowledgment.,93,78,189,254,6,62,0.8158,0.7290,0.6974,0.7195,0.6000,0.6392,288,394,0.7291,0.7074
+F13,positive,Explicit manuscript revision signaling.,93,81,229,274,7,70,0.8158,0.7570,0.8450,0.7762,0.7000,0.7216,329,425,0.8329,0.7630
+F14,positive,Supplementary material and new visual evidence.,70,61,202,210,9,46,0.6140,0.5701,0.7454,0.5949,0.9000,0.4742,281,317,0.7114,0.5691
+F15,positive,Explaining novelty and broader impact.,106,98,218,277,6,55,0.9298,0.9159,0.8044,0.7847,0.6000,0.5670,330,430,0.8354,0.7720
+F16,positive,Conceptual explanations alongside empirical results.,103,86,239,287,10,70,0.9035,0.8037,0.8819,0.8130,1.0000,0.7216,352,443,0.8911,0.7953
+F17,positive,Clarification-oriented response strategy.,112,97,263,324,10,84,0.9825,0.9065,0.9705,0.9178,1.0000,0.8660,385,505,0.9747,0.9066
+F18,positive,Concerns-addressed checklist or summary.,7,6,15,13,0,0,0.0614,0.0561,0.0554,0.0368,0.0000,0.0000,22,19,0.0557,0.0341
+F19,positive,Rewriting and simplifying for clarity.,60,38,117,113,3,25,0.5263,0.3551,0.4317,0.3201,0.3000,0.2577,180,176,0.4557,0.3160
+F20,positive,Theoretical or mathematical grounding.,69,65,154,161,7,32,0.6053,0.6075,0.5683,0.4561,0.7000,0.3299,230,258,0.5823,0.4632
+F21,positive,Active dialogue and continued engagement.,85,50,187,190,9,31,0.7456,0.4673,0.6900,0.5382,0.9000,0.3196,281,271,0.7114,0.4865
+F22,positive,Concrete revision commitments.,95,83,232,284,7,66,0.8333,0.7757,0.8561,0.8045,0.7000,0.6804,334,433,0.8456,0.7774
+F23,positive,Going beyond the explicit ask and anticipating follow-ups.,58,36,139,122,8,32,0.5088,0.3364,0.5129,0.3456,0.8000,0.3299,205,190,0.5190,0.3411
+F24,negative,Defensive or dismissive tone.,5,21,0,23,0,1,0.0439,0.1963,0.0000,0.0652,0.0000,0.0103,5,45,0.0127,0.0808
+F25,negative,Superficial or partial addressal of reviewer concerns.,8,29,5,38,0,5,0.0702,0.2710,0.0185,0.1076,0.0000,0.0515,13,72,0.0329,0.1293
+F26,negative,Missing reproducibility details.,1,2,1,8,0,0,0.0088,0.0187,0.0037,0.0227,0.0000,0.0000,2,10,0.0051,0.0180
+F27,negative,Missing or insufficient baseline comparisons.,17,31,10,39,0,3,0.1491,0.2897,0.0369,0.1105,0.0000,0.0309,27,73,0.0684,0.1311
+F28,negative,Lack of quantitative/empirical evidence in rebuttal.,24,38,24,68,0,22,0.2105,0.3551,0.0886,0.1926,0.0000,0.2268,48,128,0.1215,0.2298
+F29,negative,No new requested experiments / analyses / ablations / reviewer 'would-have-liked' checks.,29,46,24,74,0,15,0.2544,0.4299,0.0886,0.2096,0.0000,0.1546,53,135,0.1342,0.2424
+F30,negative,Vague future-oriented promises instead of concrete commitments.,24,24,47,75,0,14,0.2105,0.2243,0.1734,0.2125,0.0000,0.1443,71,113,0.1797,0.2029
+F31,negative,Narrow or insufficient evaluation scope.,33,47,28,73,0,8,0.2895,0.4393,0.1033,0.2068,0.0000,0.0825,61,128,0.1544,0.2298
+F32,negative,Incomplete empirical coverage even after rebuttal additions.,32,39,36,65,0,4,0.2807,0.3645,0.1328,0.1841,0.0000,0.0412,68,108,0.1722,0.1939
+F33,negative,"Unresolved quality-of-execution concerns, methodological or experimental design issues that additional experiments do not fix.",28,51,10,53,0,1,0.2456,0.4766,0.0369,0.1501,0.0000,0.0103,38,105,0.0962,0.1885
+F34,negative,Silent acceptance of limitations with no mitigation.,12,8,5,16,0,1,0.1053,0.0748,0.0185,0.0453,0.0000,0.0103,17,25,0.0430,0.0449
+F35,negative,"Lack of structured rebuttal format, no explicit rebuttal section, no clear author-response markers, no point-by-point Q&A with reviewer quotes.",0,2,0,4,0,2,0.0000,0.0187,0.0000,0.0113,0.0000,0.0206,0,8,0.0000,0.0144
+F36,negative,Weak novelty justification.,17,35,1,29,0,2,0.1491,0.3271,0.0037,0.0822,0.0000,0.0206,18,66,0.0456,0.1185
+F37,negative,Brevity or low-effort rebuttal.,2,10,2,7,0,5,0.0175,0.0935,0.0074,0.0198,0.0000,0.0515,4,22,0.0101,0.0395
+F38,negative,Section-referencing or paper-rephrasing instead of real clarification.,10,26,4,37,0,6,0.0877,0.2430,0.0148,0.1048,0.0000,0.0619,14,69,0.0354,0.1239
+F39,negative,Inadequate explanation or persistent clarity issues.,28,60,18,80,0,7,0.2456,0.5607,0.0664,0.2266,0.0000,0.0722,46,147,0.1165,0.2639
+F40,negative,Marginal quantitative improvements.,13,7,4,9,0,0,0.1140,0.0654,0.0148,0.0255,0.0000,0.0000,17,16,0.0430,0.0287
+F41,negative,Presentation or notation overload that worsens clarity.,1,1,0,2,0,1,0.0088,0.0093,0.0000,0.0057,0.0000,0.0103,1,4,0.0025,0.0072
+F42,negative,Vague or insufficient technical explanation.,12,30,3,38,0,3,0.1053,0.2804,0.0111,0.1076,0.0000,0.0309,15,71,0.0380,0.1275
+F43,negative,No explicit commitment to revise or improve the paper.,13,12,16,42,2,19,0.1140,0.1121,0.0590,0.1190,0.2000,0.1959,31,73,0.0785,0.1311
+F44,negative,Surfacing a previously unnoticed problem without proactive framing.,5,7,5,10,0,1,0.0439,0.0654,0.0185,0.0283,0.0000,0.0103,10,18,0.0253,0.0323
