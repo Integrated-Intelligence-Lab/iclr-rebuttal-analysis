@@ -60,8 +60,8 @@ def _resolve_data_path(conference: str, year: int) -> Path | None:
 
 
 def _file_prefix(conference: str, year: int) -> str:
-    """File naming prefix: gemini_31flash_iclr2024 or gemini_31flash_icml2025."""
-    return f"gemini_31flash_{conference}{year}"
+    """File naming prefix: gemini_flash_iclr2024 or gemini_flash_icml2025."""
+    return f"gemini_flash_{conference}{year}"
 
 
 # ---------------------------------------------------------------------------

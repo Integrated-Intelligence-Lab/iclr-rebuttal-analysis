@@ -64,8 +64,8 @@ ICLR_SCALE = [1, 3, 5, 6, 8, 10]
 SCORE_TO_POS = {s: i for i, s in enumerate(ICLR_SCALE)}
 
 GEMINI_FILES = {
-    2024: "gemini_3flash_iclr2024_full.json",
-    2025: "gemini_31flash_iclr2025_full.json",
+    2024: "gemini_flash_iclr2024_full.json",
+    2025: "gemini_flash_iclr2025_full.json",
 }
 
 ENGAGEMENT_TO_ORD = {"superficial": 0, "moderate": 1, "thorough": 2, "exceptional": 3}

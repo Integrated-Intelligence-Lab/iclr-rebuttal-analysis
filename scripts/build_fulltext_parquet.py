@@ -53,10 +53,10 @@ PARQUET_DIR = PROCESSED_DATA_DIR / "parquet"
 NORMALIZED_DIR = PROCESSED_DATA_DIR / "normalized"
 
 GEMINI_FILES = {
-    2023: "gemini_31flash_iclr2023_full.json",
-    2024: "gemini_3flash_iclr2024_full.json",
-    2025: "gemini_31flash_iclr2025_full.json",
-    2026: "gemini_31flash_iclr2026_full.json",
+    2023: "gemini_flash_iclr2023_full.json",
+    2024: "gemini_flash_iclr2024_full.json",
+    2025: "gemini_flash_iclr2025_full.json",
+    2026: "gemini_flash_iclr2026_full.json",
 }
 
 NEW_COLS = [
