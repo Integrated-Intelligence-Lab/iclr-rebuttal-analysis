@@ -192,11 +192,8 @@ python scripts/parquet_to_csv.py --year 2024
 Output lands next to the parquet files by default. Pass `--out-dir` to
 redirect.
 
-## Model provenance for the `gemini_flash_*` batch outputs
+## The `gemini_flash_*` batch outputs
 
-The score-decoder and score-change verdict batch files use a uniform `gemini_flash_`
-prefix. The exact Gemini Flash 3 model version differs by cohort: ICLR 2024 was decoded
-with `gemini-3-flash`, while ICLR 2023 and 2025 used `gemini-3.1-flash-preview`. All ran at
-temperature 0. The paper refers to these uniformly as "Gemini Flash 3.0". (An earlier
-`gemini-3-flash` decode of ICLR 2023 was superseded by the `gemini-3.1-flash-preview` run
-and is not included.)
+These are the Gemini Flash 3.0 outputs, run at temperature 0: the per-review score-decoder
+predictions and the score-change verdicts, named with a uniform `gemini_flash_` prefix. An
+earlier ICLR 2023 decode was superseded by a later run and is not included.
