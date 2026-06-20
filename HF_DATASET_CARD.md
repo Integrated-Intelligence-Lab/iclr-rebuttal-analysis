@@ -82,7 +82,7 @@ print(df['ext_direction'].value_counts(normalize=True))
 
 - **Review text and metadata**: collected from the OpenReview API using `openreview-py`
 - **Pre/post-rebuttal scores**: from [papercopilot/iclr-insights](https://github.com/papercopilot/iclr-insights) (Kargaran et al.)
-- **Gemini predictions**: Gemini Flash 3.0 (ICLR 2024) and Gemini Flash 3.1 (ICLR 2023, 2025) at temperature 0
+- **Gemini predictions**: Gemini Flash 3.0 (ICLR 2023--2025) at temperature 0
 - **44-factor taxonomy**: induced by Claude (5 runs, manually aggregated), validated by Gemini classification
 
 ## Code
