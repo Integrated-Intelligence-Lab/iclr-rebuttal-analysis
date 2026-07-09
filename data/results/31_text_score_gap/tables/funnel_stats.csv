@@ -1,0 +1,3 @@
+year,total_reviews,with_gemini,with_external,with_both,score_increased,score_decreased,score_same,increase_rate_pct,under_n,under_increased,under_increase_rate_pct,match_n,match_increased,match_increase_rate_pct,over_n,over_increased,over_increase_rate_pct
+2024,28028,27955,26878,26805,4649,357,21799,17.343779145681776,6782,539,7.947508109702153,9888,1465,14.815938511326863,10135,2645,26.097681302417364
+2025,46748,46590,46353,46195,10691,640,34864,23.14319731572681,10954,932,8.508307467591747,19818,4243,21.409829447976588,15423,5516,35.76476690656811

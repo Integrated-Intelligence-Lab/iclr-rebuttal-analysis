@@ -1,0 +1,36 @@
+{
+    "seed": 50,
+    "per_year": 500,
+    "n_reviews": 1000,
+    "force_include_high_increase": true,
+    "require_rebuttal_interaction": true,
+    "years": [
+        2025
+    ],
+    "dataset_by_year": {
+        "2025": "ICLR_2025"
+    },
+    "n_candidates": 21757,
+    "n_sampled": 1000,
+    "sampled_by_year": {
+        "2025": 1000
+    },
+    "n_unique_papers": 936,
+    "n_unique_forums": 936,
+    "outputs": {
+        "sample_reviews": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/results/score_change/samples/iclr_2025_accepted_rejected_seed50_1k_reviews.json",
+        "paper_allowlist": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/results/score_change/samples/iclr_2025_accepted_rejected_seed50_1k_paper_ids.json",
+        "forum_allowlist": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/results/score_change/samples/iclr_2025_accepted_rejected_seed50_1k_forum_ids.json",
+        "pair_allowlist_json": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/results/score_change/samples/iclr_2025_accepted_rejected_seed50_1k_pairs.json",
+        "pair_allowlist_txt": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/results/score_change/samples/iclr_2025_accepted_rejected_seed50_1k_pairs.txt",
+        "per_year": {
+            "2025": {
+                "reviews": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/results/score_change/samples/iclr_2025_accepted_rejected_seed50_1k_y2025_reviews.json",
+                "paper_allowlist": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/results/score_change/samples/iclr_2025_accepted_rejected_seed50_1k_y2025_paper_ids.json",
+                "forum_allowlist": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/results/score_change/samples/iclr_2025_accepted_rejected_seed50_1k_y2025_forum_ids.json",
+                "pair_allowlist_json": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/results/score_change/samples/iclr_2025_accepted_rejected_seed50_1k_y2025_pairs.json",
+                "pair_allowlist_txt": "/Users/mathieulouis/Documents/0. Mathieu/1. Travail/0. VUB/DATALAB/II/Research Exp./openreview_dataset_analysis/data/results/score_change/samples/iclr_2025_accepted_rejected_seed50_1k_y2025_pairs.txt"
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper below."
+title: "Rebuttals Move Peer-Review Scores, but Initial-Review Structure Bounds the Movement (code)"
+type: software
+license: MIT
+repository-code: "https://github.com/Integrated-Intelligence-Lab/iclr-rebuttal-analysis"
+authors:
+  - family-names: Louis
+    given-names: Mathieu
+    orcid: "https://orcid.org/0009-0003-0589-4357"
+    affiliation: "Data Analytics Lab, Vrije Universiteit Brussel"
+  - family-names: Vanleke
+    given-names: Tibo
+    orcid: "https://orcid.org/0009-0003-2200-7529"
+    affiliation: "Data Analytics Lab, Vrije Universiteit Brussel"
+  - family-names: Ginis
+    given-names: Vincent
+    orcid: "https://orcid.org/0000-0003-0063-9608"
+    affiliation: "Data Analytics Lab, Vrije Universiteit Brussel; Harvard University"
+  - family-names: Algaba
+    given-names: Andres
+    orcid: "https://orcid.org/0000-0002-0532-3066"
+    affiliation: "Data Analytics Lab, Vrije Universiteit Brussel"
+preferred-citation:
+  type: article
+  title: "Rebuttals Move Peer-Review Scores, but Initial-Review Structure Bounds the Movement"
+  year: 2026
+  authors:
+    - family-names: Louis
+      given-names: Mathieu
+    - family-names: Vanleke
+      given-names: Tibo
+    - family-names: Ginis
+      given-names: Vincent
+    - family-names: Algaba
+      given-names: Andres
+# TODO: add the paper DOI / Zenodo data DOI once assigned.

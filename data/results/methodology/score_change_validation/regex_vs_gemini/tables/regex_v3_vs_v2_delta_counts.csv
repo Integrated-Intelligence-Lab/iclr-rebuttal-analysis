@@ -1,0 +1,9 @@
+year,change_type,count
+2024,changed_label,28
+2024,lost_coverage,394
+2024,newly_covered_correct,37
+2024,newly_covered_incorrect,3
+2025,changed_label,62
+2025,lost_coverage,874
+2025,newly_covered_correct,86
+2025,newly_covered_incorrect,14

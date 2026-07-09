@@ -1,0 +1,9 @@
+model,auc_cv
+M1: Score position,0.5586075133711323
+M2: Sub-scores,0.5566416917898236
+M3: Sub-scores+,0.7569924545289078
+M4: All metadata,0.7901411143905331
+M5: Gemini offset,0.6483089357845856
+M6: Gemini full,0.6795715191261354
+M7: Metadata + offset,0.7924961761398506
+M8: Metadata + Gemini,0.7971911447759839

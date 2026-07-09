@@ -1,0 +1,27 @@
+# Verified with Python 3.14 (3.14.3). Versions pinned to the environment that
+# produced the released tables and figures, so a fresh install reproduces the
+# paper's numbers rather than drifting with newer library defaults.
+# Data-collection deps (openreview-py, openai, google-generativeai) are only
+# needed to re-fetch data or re-run paid LLM batches, not for offline rebuilds.
+
+# Numeric / statistical stack (drives the headline results)
+numpy==2.4.3
+pandas==3.0.1
+scipy==1.17.1
+scikit-learn==1.8.0
+statsmodels==0.14.6
+pyarrow==23.0.1
+
+# Plotting / utilities
+matplotlib==3.10.7
+networkx==3.5
+polars==1.34.0
+requests==2.32.5
+urllib3==2.5.0
+python-dotenv==1.2.2
+Flask==3.0.0
+
+# Data collection + LLM batches (not required for offline reproduction)
+openreview-py==1.59.0
+openai==2.29.0
+google-generativeai==0.8.6
